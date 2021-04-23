@@ -26,7 +26,8 @@
 
 .sr-logo img {
     width: 20rem;
-    height: inherit;
+    height: 80%;
+    margin-bottom: 1rem;
 }
 
 .sr-input {
@@ -37,6 +38,32 @@
 
 .sr-input input {
     outline: none;
-    height: 80%;
+    height: 75%;
     width: 25rem;
 }
+
+.sr-panier {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sr-panier-content {
+    width: 15rem;
+    height: 80%;
+    border: 1px solid #736b6b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 1rem;
+}
+
+.sr-panier-content svg {
+    width: 5rem;
+    height: 2rem;
+}
+
+.sr-panier-content span {
+    font-size: 1.2rem;
+}
+
