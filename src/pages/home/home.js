@@ -1,10 +1,14 @@
 import './home.css'
 import Navbar from "../../components/navbar/navbar";
+import Search from "../../components/search/search";
 
 
 const Home = () => {
     return (
-        <Navbar/>
+        <>
+            <Navbar/>
+            <Search/>
+        </>
     )
 }
 
