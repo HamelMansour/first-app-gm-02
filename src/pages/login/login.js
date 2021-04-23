@@ -2,10 +2,14 @@ import './login.css'
 import loginImg from '../../assets/images/paypal-logo-129x32.svg'
 
 const Login = () => {
+
+    const hello = () => {
+        alert('hello')
+    }
     return (
         <div className="container">
             <div className="card">
-                <div className="logo">
+                <div onClick={hello} className="logo">
                     <img src={loginImg} alt="Logo paypal"/>
                 </div>
                 <div className="inputs">

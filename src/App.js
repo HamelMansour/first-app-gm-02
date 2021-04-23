@@ -1,9 +1,9 @@
 import './App.css';
-import Login from "./pages/login/login";
+import Home from "./pages/home/home";
 
 const App = () => {
     return (
-        <Login/>
+        <Home/>
     );
 }
 
