@@ -3,6 +3,7 @@
     height: 3rem;
     display: flex;
     justify-content: space-between;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .navbar-left, .navbar-right {
@@ -51,4 +52,10 @@
     font-weight: bold;
     font-size: 1rem;
     cursor: pointer;
+}
+
+.navbar-first svg,
+.navbar-secend svg {
+    margin-right: .5rem;
+    color: red;
 }
